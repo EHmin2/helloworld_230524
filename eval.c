@@ -6,7 +6,7 @@ int get_accuracy(int y_true[], int y_pred[]) {
 
 	for (i=0; i<100; i++) {
 		if(y_true[i] == y_pred[i]
+			res++;
 	}
-				res++;
-	return 0;
+	return res;
 }
